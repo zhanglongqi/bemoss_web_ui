@@ -44,7 +44,7 @@ from django.shortcuts import render_to_response
 from django.http import HttpResponse
 from alerts.views import get_notifications
 from dashboard.models import Building_Zone, DeviceMetadata
-from powerdb2.smap.models import Stream, Subscription
+from powerdb2.smap.models import Stream, Subscription, Metadata2
 from thermostat.models import Thermostat
 from lighting.models import Lighting
 from smartplug.models import Plugload
